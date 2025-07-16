@@ -83,6 +83,15 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
+            <a
+              href="/resume/harish_resume.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-link"
+            >
+              Resume
+            </a>
           </div>
 
           {/* Resume Button & Mobile Menu Toggle */}

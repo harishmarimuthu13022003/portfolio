@@ -93,8 +93,10 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href={personalInfo.resume}
+                  href="/resume/harish_resume.pdf"
                   download
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-gray-300 hover:text-primary-400 transition-colors duration-300 block py-1"
                 >
                   Download Resume

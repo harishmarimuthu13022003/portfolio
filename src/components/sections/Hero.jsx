@@ -78,13 +78,15 @@ const Hero = () => {
                 <FaArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
               </Link>
               
-              <button
-                onClick={downloadResume}
-                className="btn-secondary group"
+              <a
+                href="/resume/harish_resume.pdf"
+                download
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary mt-4"
               >
-                <FaDownload className="mr-2 w-4 h-4 group-hover:animate-bounce" />
                 Download Resume
-              </button>
+              </a>
             </div>
 
             {/* Social Links */}
