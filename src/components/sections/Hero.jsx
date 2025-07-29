@@ -25,7 +25,7 @@ const Hero = () => {
   const downloadResume = () => {
     const link = document.createElement('a');
     link.href = personalInfo.resume;
-    link.download = 'Bharathi_G_Resume.pdf';
+    link.download = 'harish_resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

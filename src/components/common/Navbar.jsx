@@ -38,7 +38,7 @@ const Navbar = () => {
   const downloadResume = () => {
     const link = document.createElement('a');
     link.href = personalInfo.resume;
-    link.download = 'Harish_M_Resume.pdf';
+    link.download = 'harish_resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -97,13 +97,18 @@ const Navbar = () => {
           {/* Resume Button & Mobile Menu Toggle */}
           <div className="flex items-center space-x-4">
             {/* Resume Download Button */}
-            <button
-              onClick={downloadResume}
+            <a
+                  href="/resume/harish_resume.pdf"
+                  download
+                  target="_blank"
+                  rel="noopener noreferrer"
               className="btn-primary text-sm py-2 px-4 hidden sm:inline-flex"
             >
               <FaDownload className="w-4 h-4 mr-2" />
               Resume
-            </button>
+              </a>
+
+        
 
             {/* Mobile Menu Button */}
             <button
