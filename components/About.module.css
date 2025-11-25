@@ -1,0 +1,51 @@
+.aboutContent {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.text {
+    flex: 1;
+    font-size: 1.1rem;
+    color: var(--text-main);
+    line-height: 1.8;
+}
+
+.highlight {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.stats {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.statItem {
+    text-align: center;
+}
+
+.statNumber {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    display: block;
+}
+
+.statLabel {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+@media (max-width: 768px) {
+    .aboutContent {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .stats {
+        justify-content: center;
+    }
+}
