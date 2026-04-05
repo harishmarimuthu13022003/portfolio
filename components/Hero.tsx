@@ -20,7 +20,7 @@ const Hero = () => {
                         View Work
                     </Link>
                     <a
-                        href="/harish_mern&Ai_Resume (1).pdf"
+                        href="/Harish_M_FSD_AI_resume_.pdf"
                         download="Harish_M_Resume.pdf"
                         className="btn-primary"
                     >
