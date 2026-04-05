@@ -1,5 +1,5 @@
 import { FaReact, FaNodeJs, FaPython, FaGitAlt } from 'react-icons/fa';
-import { SiNextdotjs, SiJavascript, SiBootstrap, SiMui, SiExpress, SiMongodb, SiPostman, SiRedux } from 'react-icons/si';
+import { SiNextdotjs, SiJavascript, SiBootstrap, SiMui, SiExpress, SiMongodb, SiPostman, SiRedux, SiAngular, SiTypescript } from 'react-icons/si';
 import { TbRobot } from 'react-icons/tb';
 import styles from './Skills.module.css';
 
@@ -9,6 +9,8 @@ const Skills = () => {
             title: 'Frontend',
             skills: [
                 { name: 'React.js', icon: <FaReact /> },
+                { name: 'Angular', icon: <SiAngular /> },
+                { name: 'TypeScript', icon: <SiTypescript /> },
                 { name: 'Next.js', icon: <SiNextdotjs /> },
                 { name: 'JavaScript', icon: <SiJavascript /> },
                 { name: 'Bootstrap', icon: <SiBootstrap /> },

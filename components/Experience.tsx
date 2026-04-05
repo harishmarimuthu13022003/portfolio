@@ -10,11 +10,11 @@ const Experience = () => {
                     {/* Current Role */}
                     <div className={`${styles.item} ${styles.left}`}>
                         <div className={`glass ${styles.content} hover-glow`}>
-                            <span className={styles.date}>July 2025 - Present</span>
+                            <span className={styles.date}>July 2025 - Feb 2026</span>
                             <h3 className={styles.role}>Software Associate</h3>
                             <h4 className={styles.company}>SNS Square Consultancy Service</h4>
                             <ul className={styles.list}>
-                                <li>Developed HyreDrogan, an Agentic AI-driven hiring platform.</li>
+                                <li>Developed HyreDrogan, a cutting-edge AI-driven hiring platform.</li>
                                 <li>Built intelligent agents for candidate screening and role matching.</li>
                                 <li>Integrated AI-based resume analysis and real-time interview assistance.</li>
                                 <li>Designed scalable microservice architecture for modular hiring operations.</li>
@@ -26,7 +26,7 @@ const Experience = () => {
                     {/* Previous Role */}
                     <div className={`${styles.item} ${styles.right}`}>
                         <div className={`glass ${styles.content} hover-glow`}>
-                            <span className={styles.date}>Aug 2024 - July 2025</span>
+                            <span className={styles.date}>June 2024 - July 2025</span>
                             <h3 className={styles.role}>Junior Software Associate</h3>
                             <h4 className={styles.company}>SNS Square Consultancy Service</h4>
                             <ul className={styles.list}>

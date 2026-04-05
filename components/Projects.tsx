@@ -6,12 +6,30 @@ const Projects = () => {
     const projects = [
         {
             title: 'HyreDrogan',
-            role: 'Agentic Hiring Intelligence Tool',
-            description: 'Developed an Agentic AI-driven hiring platform to automate recruitment. Built intelligent agents for candidate screening, role matching, and recruiter workflow automation using LangChain.',
-            tags: ['Next.js', 'Python', 'LangChain', 'Microservices', 'AI'],
-            image: '/hyredrogan_dashboard.png',
+            role: 'AI Hiring Intelligence Tool',
+            description: 'A cutting-edge AI-driven hiring platform designed to modernize and automate the recruitment process from end-to-end. The system features sophisticated modules for automated candidate screening, precision role-based matching, and intelligent recruiter workflow orchestration. By utilizing advanced information retrieval and processing techniques, the platform helps HR professionals manage high-volume application pipelines with unprecedented accuracy. This tool significantly minimizes manual intervention, allowing teams to focus on strategic hiring decisions while maintaining a high standard of data integrity.',
+            tags: ['React.js', 'Python', 'Microservices', 'AI', 'NLP'],
+            image: '/hiring_platform_latest.png',
             github: '#',
-            demo: 'https://hyrdragon.digitaldiffuse.in/'
+            demo: 'https://hyre.1000dragons.ai'
+        },
+        {
+            title: 'Dynamic Stock Portfolio AI',
+            role: 'Stock Portfolio Assessment Tool',
+            description: 'A sophisticated full-stack portfolio management application built with Next.js, Node.js, and MongoDB for seamless investment tracking. It features a real-time data engine that scrapes live financial metrics like P/E ratios and EPS to provide deeper insights into stock performance across NSE and BSE exchanges. The platform delivers a premium, glassmorphic user interface with interactive visualizations and automated sector-wise distribution analysis for data-driven decision-making. Designed for modern investors, the system ensures secure data persistence and high-performance cross-device access.',
+            tags: ['Next.js', 'Node.js', 'MongoDB', 'Web Scraping', 'FinTech'],
+            image: '/stock_portfolio.png',
+            github: 'https://github.com/harishmarimuthu13022003/dynamic_stocks_portfolio_frontend',
+            demo: 'https://dynamic-stocks-portfolio-frontend.vercel.app/'
+        },
+        {
+            title: 'Admission Portal',
+            role: 'Admission Management CRM',
+            description: 'A sophisticated Admission Management CRM architected with Next.js 14 and Express.js to modernize the student enrollment lifecycle. The platform features an interactive Dashboard HUD with real-time seat tracking across KCET, COMEDK, and Management quotas. It employs a secure RBAC system with unique interfaces for three distinct user roles, ensuring secure and efficient task management. Key technical highlights include atomic seat allocation logic, a sleek glassmorphic UI, and complex 15-field data validation for applicant profiles. (Sample users: admin - password123, admissionofficer@gmail.com - 123456, manager1@gmail.com - 123456)',
+            tags: ['Next.js 14', 'Express.js', 'JWT', 'Mongoose', 'RBAC'],
+            image: '/admission_crm_dashboard.png',
+            github: 'https://github.com/harishmarimuthu13022003/Admission_Management_CRM_Frontend',
+            demo: 'https://admissionmanagement-xi.vercel.app/'
         },
         {
             title: 'Bizbooks',
